@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">rhamache-recipes</string>
+    <string name="menu_settings">Settings</string>
+    <string name="button_new_entry">New Entry</string>
+    <string name="button_view_entries">View Log</string>
+    <string name="button_edit_entries">Delete Log Entries</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_new_entry">New Entry</string>
+    <string name="button_entry_ok">Done</string>
+    <string name="new_entry_desc">Enter a description</string>
+    <string name="new_entry_date">Enter a date</string>
+    <string name="new_entry_cal">Enter number of calories per weight/volume/serving</string>
+    <string name="new_entry_serv">Enter serving size</string>
+    <string name="new_entry_total">Enter total amount consumed</string>
+    <string name="title_activity_display_log">Calorie Log</string>
+    <string name="title_activity_main">Main Menu</string>
+    <string name="new_entry_units">Units of serving size (eg g, ml, portions, etc.)</string>
+    <string name="button_log_okay">Done</string>
+    <string name="title_activity_delete_entries">Delete Entries</string>
+    <string name="delete_helper">Touch entries to delete them from the log</string>
+    <string name="total_descriptor">Or enter total calories for this entry. All other fields except description and date will be ignored.</string>
+    <string name="new_entry_totalcal">Enter total calories for this entry</string>
+    <string name="button_about">About</string>
+
+</resources>

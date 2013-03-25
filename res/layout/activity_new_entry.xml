@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/edit_date"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="date" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/edit_cal"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint = "@string/new_entry_cal"
+        android:inputType="numberDecimal" />
+    
+    <EditText android:id="@+id/edit_serv"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="@string/new_entry_serv"
+        android:inputType="numberDecimal" />
+    
+    <EditText android:id="@+id/edit_units"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="@string/new_entry_units" />
+    
+    <EditText android:id="@+id/edit_total"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="@string/new_entry_total"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/total_descriptor" />
+
+    <EditText
+        android:id="@+id/edit_caltotal"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="@string/new_entry_totalcal"
+        android:inputType="number" />
+    
+    <EditText android:id="@+id/edit_desc"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="3"
+        android:hint="@string/new_entry_desc" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_entry_ok"
+        android:onClick="addEntry" />
+</LinearLayout>
